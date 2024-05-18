@@ -3,7 +3,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: node:lastest
+    image: node
     init: true
     volumes:
     - type: bind
